@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 首页Tab -->
+    <color name="red_f36b4b">#f36b4b</color>
+    <color name="yellow_ffb017">#ffb017</color>
+    <color name="blue_57c5f6">#57c5f6</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="white_down">#ccffffff</color>
+
+    <!-- 黑色 -->
+    <color name="black_88000000">#88000000</color>
+    <color name="black_344758">#344758</color><!-- 所有页面的文字黑色 -->
+
+    <!-- 主蓝色 -->
+    <color name="blue_07a2ee">#07a2ee</color><!-- 主蓝色 -->
+
+    <!-- 灰色 -->
+    <color name="gray_dedede">#dedede</color>
+    <color name="main_line_gray">#e1e0df</color>
+    <color name="gray_777777">#777777</color>
+
+    <!--橙色-->
+    <color name="yellow_ff9c29">#ff9c29</color>
+
+    <color name="login_text">#99000000</color>
+    <color name="login_EditText">#99959595</color>
+
+    <!--圆角矩形按钮-->
+    <color name="btn_rectangle_green_down">#38b225</color>
+    <color name="btn_rectangle_blue_down">#1583cd</color>
+    <color name="btn_rectangle_orange_down">#e5881b</color>
+    <color name="btn_rectangle_green">#55cb42</color>
+    <color name="btn_rectangle_blue">#2b98e2</color>
+    <color name="btn_rectangle_orange">#ff9d29</color>
+
+</resources>

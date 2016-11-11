@@ -1,0 +1,8 @@
+<resources>
+
+	<!-- Dialog 480分辨率左右间距 -->
+	<dimen name="dialog_spacing">12dip</dimen>
+	<!--  dialog 480 宽度-->
+	<dimen name="dialog_width">240dip</dimen>
+
+</resources>

@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+    <com.coderoom.view.CustomTextView
+        android:id="@+id/mTvslogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="共\n享\n·\n时\n代"
+        android:textColor="@color/black_344758"
+        android:visibility="invisible"
+        android:textSize="@dimen/dp_20"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="寝·室·邦"
+        android:textColor="@color/black_344758"/>
+
+</RelativeLayout>

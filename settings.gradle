@@ -1,0 +1,3 @@
+include ':app'
+include ':AFast'
+include ':UmengSDK'

@@ -1,0 +1,9 @@
+<resources>
+
+
+    <!-- Dialog 720分辨率左右间距 -->
+    <dimen name="dialog_spacing">0dip</dimen>
+    <!--  dialog 720 宽度-->
+    <dimen name="dialog_width">300dip</dimen>
+
+</resources>

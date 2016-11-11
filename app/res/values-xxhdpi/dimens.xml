@@ -1,0 +1,7 @@
+<resources>
+
+    <dimen name="dialog_spacing">0dip</dimen>
+    <!--  dialog 1080 宽度-->
+    <dimen name="dialog_width">300dip</dimen>
+
+</resources>

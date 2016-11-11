@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+
+    <!-- 登陆注册表单EditText样式 -->
+    <style name="loginEditTexStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">@dimen/dp_17</item>
+        <item name="android:textColor">@color/login_text</item>
+        <item name="android:textColorHint">@color/login_EditText</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="NickEditStyle" parent="loginEditTexStyle">
+        <item name="android:maxLength">10</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="PwdEditStyle" parent="loginEditTexStyle">
+        <item name="android:maxLength">20</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:hint">6位以上的密码</item>
+    </style>
+
+    <!-- 绿色按钮 -->
+    <style name="btnGreen">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+        <item name="android:textSize">@dimen/dp_17</item>
+        <item name="android:textColor">@color/selector_greenbtn_white</item>
+        <item name="android:background">@drawable/selector_green_btn</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="btnBlue">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+        <item name="android:textSize">@dimen/dp_17</item>
+        <item name="android:textColor">@color/selector_greenbtn_white</item>
+        <item name="android:background">@drawable/selector_blue_btn</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="btnYellow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+        <item name="android:textSize">@dimen/dp_17</item>
+        <item name="android:textColor">@color/selector_greenbtn_white</item>
+        <item name="android:background">@drawable/selector_yellow_btn</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+
+</resources>

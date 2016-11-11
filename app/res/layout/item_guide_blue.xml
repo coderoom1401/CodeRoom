@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="双11你还是一个人吗？
+        \n\n 独自在家
+        \n\n 写代码
+        \n\n 画苦逼的产品原型
+        \n\n 写运营方案"
+        android:textSize="@dimen/dp_14"
+        android:textColor="@color/black_344758"/>
+
+
+</RelativeLayout>
