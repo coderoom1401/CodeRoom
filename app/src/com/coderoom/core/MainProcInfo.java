@@ -123,10 +123,10 @@ public class MainProcInfo implements IAutoParams,ICommon {
         app.am = mActivityManager;
         app.db = new AppDBHelper();
         app.mTTf = Typeface.createFromAsset(ctx.getAssets(), "fonts/youyuan.ttf");
-//        app.Toast_Layout = R.layout.toast_normal;
+        app.Toast_Layout = R.layout.toast_normal;
 //		app.Toast_Animtion = R.style.anim_view;
 //        app.Toast_ID_Text = R.id.mTvContent;
-//        app.Loading_Layout = R.layout.dialog_loading3;
+        app.Loading_Layout = R.layout.dialog_loading;
 //        app.Loading_Style = R.style.LoadingDialog;
 //        app.DefaultShareUrl = "http://www.androidblog.com";
 //        app.mWXAppId = "wx55edbde66c43dbe8";
