@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mLlLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fce7e6"
+    android:gravity="center"
+    android:minWidth="100dp"
+    android:minHeight="30dp"
+    android:orientation="horizontal" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <com.dasheng.b2s.view.CustomTextView
+        android:id="@+id/mTvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ff6343"
+        android:textSize="@dimen/dp_17" />
+
+</RelativeLayout>
